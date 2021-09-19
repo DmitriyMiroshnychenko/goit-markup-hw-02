@@ -1,5 +1,5 @@
 /*общее оформление*/
- {:root {
+:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -49,7 +49,7 @@ body {
 
 /* HEADER */
 
-.nav .link,
+.nav.link,
 .header-cont .link {
   font-weight: 500;
   font-size: 14px;
@@ -60,6 +60,7 @@ body {
 
 .header-cont .link {
   color: var(--primary-text-color);
+  --primary-text-color: #757575;
 }
 
 .nav .link:hover,
@@ -78,7 +79,7 @@ body {
   background-color: var(--third-background-color);
 }
 
-.footer-list .link {
+.footer-list.link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
